@@ -1,0 +1,10 @@
+Techdocs URLs:
+- https://www.canva.com/design/DAFNUYAj3iI/DPzaknzF_diGXFUz9H1Wnw/edit
+- https://drive.google.com/file/d/1_gbnDouNV5wSIP6Lhi1chX563hvaDehf/view
+
+Database
+-  Database: bekonsel
+-- users
+-- user_roles
+-- tests
+-- pertanyaans
