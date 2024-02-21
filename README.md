@@ -7,12 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Setelah melakukan clone
-- ubah nama .env.example menjadi .env yang pada repository (kalau semisal .env gaada dilakan extract terlebih dahulu)
-- install composer pada terminal (composer install)
-- install npm pada terminal (npm install), note: bagi yang belum ada npm, install node.js di windows
-- update composer (composer update)
-- Buat database baru pada php myadmin dengan nama bekonsel
-- ketik pada terminal php artisan migrate:fresh --seed
-- run, npm run dev pada terminal 
-- run, php artisan serve
+## After cloning
+- Change .env.example into .env in the repository (if .env doesn't exist, extract it first)
+- Install composer in terminal (composer install)
+- Install npm in terminal (npm install), note: for those who don't have NPM, install node.js on Windows
+- Update composer (composer update)
+- Create a new database in php myadmin with name "bekonsel"bekonsel
+- Type in terminal: php artisan migrate:fresh --seed
+- Run in terminal: npm run dev 
+- Run the code: php artisan serve
