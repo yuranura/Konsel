@@ -7,12 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## After cloning
+## After Cloning
 - Change .env.example into .env in the repository (if .env doesn't exist, extract it first)
 - Install composer in terminal (composer install)
 - Install npm in terminal (npm install), note: for those who don't have NPM, install node.js on Windows
 - Update composer (composer update)
-- Create a new database in php myadmin with name "bekonsel"bekonsel
-- Type in terminal: php artisan migrate:fresh --seed
-- Run in terminal: npm run dev 
-- Run the code: php artisan serve
+- Create a new database in php myadmin with name "bekonsel"
+- Type in terminal (php artisan migrate:fresh --seed) 
+- then (php artisan db:seed --class=TipeSoalSeeder)
+- then (php artisan db:seed --class=TestSeeder)
+- then (php artisan db:seed --class=PertanyaanSeeder)
+- Run in terminal (npm run dev ) 
+- Run the code (php artisan serve) 
