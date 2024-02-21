@@ -13,9 +13,9 @@
 - Install npm in terminal (npm install), note: for those who don't have NPM, install node.js on Windows
 - Update composer (composer update)
 - Create a new database in php myadmin with name "bekonsel"
-- Type in terminal (php artisan migrate:fresh --seed) 
-- then (php artisan db:seed --class=TipeSoalSeeder)
-- then (php artisan db:seed --class=TestSeeder)
-- then (php artisan db:seed --class=PertanyaanSeeder)
-- Run in terminal (npm run dev ) 
+- Type in terminal (php artisan migrate:fresh --seed); 
+- then (php artisan db:seed --class=TipeSoalSeeder);
+- then (php artisan db:seed --class=TestSeeder);
+- then (php artisan db:seed --class=PertanyaanSeeder);
+- Run in terminal (npm run dev) 
 - Run the code (php artisan serve) 
